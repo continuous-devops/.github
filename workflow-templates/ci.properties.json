@@ -1,0 +1,10 @@
+{
+    "name": "Continuous-DevOps Workflow",
+    "description": "This is a sample workflow template that simply echo's to the runner log",
+    "iconName": "github-icon",
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
