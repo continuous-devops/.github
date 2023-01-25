@@ -1,9 +1,11 @@
-name: Continuous-DevOps Organization CI
+name: Continuous-DevOps Organization CI for PRs
 
 on:
   push:
     branches: [ $default-branch ]
-    
+  pull_request:
+    branches: [ $default-branch ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
