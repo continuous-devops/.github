@@ -3,9 +3,7 @@ name: Continuous-DevOps Organization CI
 on:
   push:
     branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
